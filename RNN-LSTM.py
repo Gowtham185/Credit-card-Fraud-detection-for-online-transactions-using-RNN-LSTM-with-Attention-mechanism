@@ -2,6 +2,7 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
+from sklearn.manifold import TSNE
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import LSTM, Dense, Input, Permute, Multiply, Lambda
 from tensorflow.keras.optimizers import Adam
